@@ -1,0 +1,11 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["kilic <kiliconu@itu.edu.tr>"]
+edition = "2018"
+
+[lib]
+name = "baby"
+crate-type = ["cdylib"]
+
+[dependencies]
